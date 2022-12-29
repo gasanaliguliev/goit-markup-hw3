@@ -72,10 +72,10 @@ ul {
  }
  .site-nav {
     display: flex; 
-    margin-left: 70px;
+    margin-left: 76px;
  }
  .site-nav .item{
-    margin-right: 70px;
+    margin-right: 40px;
  }
  
  .site-nav .item:last-child {
@@ -216,8 +216,8 @@ ul {
 
 
 .person {
-    margin-top: 32px;
-    margin-bottom: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .header__team {
@@ -339,5 +339,6 @@ ul {
  line-height: 24px;
  letter-spacing: 0.02em;
  color: var(--border_color);
+ margin: 0;
  }
  

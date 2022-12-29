@@ -1,5 +1,5 @@
 :root {
-    --web_color: #4D5AE5;
+   --web_color: #4D5AE5;
     --studio_color:#2E2F42;
     --list_color: #434455; 
     --team_color: #F4F4FD; 
@@ -224,9 +224,14 @@ ul {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
+   margin-bottom: -30px ;
 }
 
 .link__img {
+   margin-bottom: 30px;
+}
+
+.link__img:last-child {
    margin-bottom: 30px;
 }
 
@@ -250,4 +255,5 @@ ul {
    line-height: 24px;
    letter-spacing: 0.02em;
    color: var(--border_color);
+   margin: 0;
 }
